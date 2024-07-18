@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Capture</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="above">
+        <button id="allow">Allow Camera</button>
+        <button id="notallow">Not Allow Camera</button>
+    </div>
+    
+
+    <div class="main">
+        
+        <div class="videoObject">
+        <video id="videoElement" autoplay="true" width="70%" height="70%"></video>
+        </div>
+      <div>
+        <button id="capture" class="btn">
+            Capture Image
+         </button>
+      </div>
+    
+    </div>
+     <canvas id="image" class="canvas"></canvas>
+     
+     <script src="index.js"></script>
+</body>
+</html>
+

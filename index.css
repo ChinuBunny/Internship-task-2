@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(171, 158, 158);
+    width: 100%;
+
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .above
+  {
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    justify-content: space-evenly;
+  }
+  .above button{
+    width: 70%;
+    background-color: black;
+    color: red;
+    height: 70px;
+    font-size: x-large;
+    cursor: pointer;
+    transition: 1.2s;
+  }
+  .above button:hover{
+    transform: scale(1.2);
+    color: white;
+  }
+  .main {
+    display: flex;
+    width: 100%;
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .videoObject {
+    width: 150%; /* Adjust width as needed */
+    height: 50%;
+    border: 5px solid #7b1b1b;
+    background: rgb(16, 6, 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    height: 60px;
+    margin-top: 5%;
+    padding-left: 5%;
+    width: auto;
+    font-weight: bold;
+    font-size: 56px;
+    color: white;
+    background-color: black;
+    text-shadow: #7b1b1b;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .canvas {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    border: 5px solid #7b1b1b;
+    background: rgb(16, 6, 6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
